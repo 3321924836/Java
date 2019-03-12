@@ -1,0 +1,14 @@
+package notebook;
+
+public class NoteBook {
+	private String n = new String();
+	public String showNotes() {
+		return n;
+	}
+	public int showLength() {
+		return n.length();
+	}
+	public String indexSearch(int index) {
+		return 
+	}
+}
