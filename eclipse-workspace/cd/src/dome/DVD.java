@@ -1,18 +1,16 @@
 package dome;
 
-public class CD {
+public class DVD {
 	private String title;
-	private String artist;
-	private int numofTracks;
+	private String director;
 	private int playingTime;
 	private boolean gotIt = false;
 	private String comment;
 
-	public CD(String title, String artist, int numofTracks, int playingTime, String comment) {
+	public DVD(String title, String director, int playingTime, String comment) {
 		super();
 		this.title = title;
-		this.artist = artist;
-		this.numofTracks = numofTracks;
+		this.director = director;
 		this.playingTime = playingTime;
 		this.comment = comment;
 	}
@@ -24,7 +22,7 @@ public class CD {
 
 	public void print() {
 		// TODO Auto-generated method stub
-		System.out.println("CD"+":"+title+":"+artist);
+		System.out.println("DVD"+":"+title + ":" + director);
 	}
 
 }
