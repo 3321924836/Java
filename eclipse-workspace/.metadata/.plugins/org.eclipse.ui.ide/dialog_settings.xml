@@ -5,6 +5,15 @@
 		<item value="C:\Users\Leslie\Desktop\castle"/>
 	</list>
 	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Leslie\Documents\GitHub\Java\eclipse-workspace\DBTest"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
 	</section>
 	<section name="ResourceNavigator">
 		<item value="Aggregate for window 1545973790234" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
