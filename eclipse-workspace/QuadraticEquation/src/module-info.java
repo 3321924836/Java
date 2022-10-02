@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Leslie
- *
- */
-module QuadraticEquation {
-}
