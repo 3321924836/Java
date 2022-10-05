@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+a{text-decoration: none}
+hr{background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05));width:95%;margin:0 auto;border: 0;height: 1px;}
+#header{background-color: rgba(255,255,255,0.7);height: 50px;width: 100%; position:fixed;top:5px;left: 5px;margin:-5px;box-shadow: 0 3px 4px 0 rgba(0,0,0,.05);}
+.headerUl{list-style: none;padding: 0px;margin: 0px; margin-inline-start: 150px;margin-inline-end:0px}
+.headerLi{float: left;padding: 15px 15px 0 15px;margin-left:10px}
+.headerLiItem{height: 34px;}
+.headerLi:hover{background-color:rgba(240,240,240,0.90);transition: 0.25s}
+	
+#mainTable{height:auto;width: 100%;margin-top: 60px;padding-left: 50px;padding-right: 50px}
+#userTd{background-image: linear-gradient(rgba(255,255,255,0.68),rgba(255,255,255,0.4), transparent);padding: 10px;padding-top: 30px}
+#commentsTd{background-image: linear-gradient(rgba(255,255,255,0.68),rgba(255,255,255,0.4), transparent);}
+	
+.words{font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";font-size: 18px;font-weight:500}
+.words2{font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";font-size:15px;}
+.words3{font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";font-size:13px;}
+.myButton{border: solid grey 1px;margin: 10px;height: 25px;border-radius: 5px}
+.myButton:hover{font-weight: 700;font-size: 16px;transition: 0.7s}
+#myButton1{background-color: #E28C1A;color: white}
+#myButton1:hover{background-color: #C77B16;}
+	
+#comment{padding:15px 30px 10px 30px;}
+#commentsHeader{height: 150px;}
+#AddForm,#UpdateForm{padding: 20px 0px 10px 50px;}
+#addInput,#updateInput{border: none;background-color: transparent;box-shadow:0px 2px 5px 3px rgba(0,0,0,.05);height: 50px;width: 80%;}
+#addText,#updateText{background-color: transparent;border: none;box-shadow:0px 2px 5px 3px rgba(0,0,0,.05);height: 50px;width: 100%;}
+
+#AddButton{background-color:transparent;border: solid #CECAC5 1px;margin:10px 0px 0px 0px;height:30px;border-radius: 5px}
+#AddButton:hover{background-color: #E28C1A;color: white}
+button{background-color: aliceblue;border: none;margin-right: 20px}
+
+#moreDiv{display: inline-block;position: relative;float: right}
+.moreButton{background-color: transparent;height: 25px;border: solid #C1C1c1 1px;border-radius: 5px;}
+.moreButton:hover{background-color: #E28C1A;color: white}
+#moreOptions{display:none; position: absolute;background-color: rgba(255,255,255,0.7);top: 25px}
+#DeleteButton{list-style: none;padding: 10px 20px 7px 20px;}
+#UpdateButton{list-style: none;padding: 7px 20px 10px 20px;}
+#DeleteButton:hover,#UpdateButton:hover{background-color: #E28C1A;color: white}
+
+#cContent{color: grey;overflow: hidden; text-overflow: ellipsis;white-space: normal;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+#cTime{color: grey;}
+
+
+#updateDiv {
+	background-image: linear-gradient(rgba(255,255,255,0.68),rgba(255,255,255,0.4), rgba(255,255,255,0.4), transparent);
+	width: 50%;
+	height: auto;
+	margin-top: 120px;
+	padding: 30px;
+}
+
+#Update {
+	background-color:transparent;border: solid #CECAC5 1px;margin:10px 0px 0px 0px;height:30px;border-radius: 5px;margin-bottom: 80px;
+}
+#Update:hover, #loginButton:hover{
+	background-color: #E28C1A;color: white;
+}
+
+#updateInput{width: 80%;margin:30px 0px;}
+
+#updateText{width:80%;margin-bottom: 30px;height: 100px}
+
+#headerContent{
+	margin-top:300px;font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";font-size: 30px;font-weight:500
+}
+
+#loginDiv{
+	background-image: linear-gradient(rgba(255,255,255,0.68),rgba(255,255,255,0.4), rgba(255,255,255,0.4), transparent);
+	width: 50%;
+	height: auto;
+	margin-top: 120px;
+	padding: 30px;
+}
+
+.loginInput{
+	border: none;
+	background-color: transparent;
+	box-shadow:0px 2px 5px 3px rgba(0,0,0,.05);
+	margin:25px;
+	height:30px;
+	width:30%;
+}
+
+#loginButton{
+	background-color:transparent;
+	border: solid #CECAC5 1px;
+	margin:10px 0px 0px 0px;
+	height:35px;
+	width: 42%;
+	border-radius: 5px;
+	margin-bottom: 100px;
+}
